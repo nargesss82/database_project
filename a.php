@@ -81,9 +81,9 @@
     function DB_Connection()
     {
         $host = "78.38.35.219";
-        $dbname = "401463120";
-        $user = "401463120";
-        $password = "123456";
+        $dbname = "??";
+        $user = "??";
+        $password = "??";
 
         try {
             $pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
